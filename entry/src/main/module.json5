@@ -1,0 +1,118 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "process": "非系统应用不支持进程配置",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "virtualMachine": "default",
+    "pages": "$profile:main_pages",
+    "metadata": [
+      {
+        "name": "data1",
+        "value": "value1",
+        "resource": "$profile:metadata"
+      },
+      {
+        "name": "data2",
+        "value": "value2",
+        "resource": "$profile:metadata"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "launchType": "standard",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "permissions": [],
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "continuable": false,
+        "removeMissionAfterTerminate":false,
+        "orientation": "unspecified",
+        "supportWindowMode": ["fullscreen","split","floating"],
+        "priority": 0,
+        "excludeFromMissions": false,
+        "backgroundModes": [
+          "dataTransfer",
+          "audioPlayback",
+          "audioRecording",
+          "location",
+          "bluetoothInteraction",
+          "multiDeviceConnection",
+          "wifiInteraction",
+          "voip",
+          "taskKeeping"
+        ],
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "metadata": [
+          {
+            "name": "data1",
+            "value": "value1",
+            "resource": "$profile:metadata"
+          },
+          {
+            "name": "data2",
+            "value": "value2",
+            "resource": "$profile:metadata"
+          }
+        ]
+      }
+    ],
+//    "extensionAbilities": [
+//      {
+//        "metadata": [
+//          {
+//            "name": "data1",
+//            "value": "value1",
+//            "resource": "$profile:metadata"
+//          },
+//          {
+//            "name": "data2",
+//            "value": "value2",
+//            "resource": "$profile:metadata"
+//          }
+//        ]
+//      },
+//      {
+//        "metadata": [
+//          {
+//            "name": "data1",
+//            "value": "value1",
+//            "resource": "$profile:metadata"
+//          },
+//          {
+//            "name": "data2",
+//            "value": "value2",
+//            "resource": "$profile:metadata"
+//          }
+//        ]
+//      }
+//    ],
+//    "requestPermissions": [
+//      {
+//      }
+//    ],
+//    "testRunner": {
+//    }
+  }
+}

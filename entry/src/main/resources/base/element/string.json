@@ -1,0 +1,33 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Study1"
+    },
+
+    {
+      "name": "second_enter",
+      "value": "进入第二个页面"
+    },
+    {
+      "name": "first_page",
+      "value": "第一个页面"
+    },
+    {
+      "name": "second_page",
+      "value": "第二个页面"
+    },
+    {
+      "name": "third_enter",
+      "value": "进入第三个页面"
+    }
+  ]
+}

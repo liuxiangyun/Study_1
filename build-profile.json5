@@ -1,0 +1,69 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/liuxiangyun/.ohos/config/auto_debug_Study_1_com.example.study_1_2850086000372117205.cer",
+          "storePassword": "0000001B8161A3BCDD2871717E04AC225289093ABAE0D833328BE56D6B6C10E4B1A66A94046820D5BA988E",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BC7D12B338115E305E706F4383C7A107763F7095770842D9A70F70B1AA7379C3F99998700FFC3C5",
+          "profile": "/Users/liuxiangyun/.ohos/config/auto_debug_Study_1_com.example.study_1_2850086000372117205.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/liuxiangyun/.ohos/config/auto_debug_Study_1_com.example.study_1_2850086000372117205.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "study_2",
+      "srcPath": "./study_2",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sharedlibrary",
+      "srcPath": "./sharedlibrary",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "staticlibrary",
+      "srcPath": "./staticlibrary"
+    }
+  ]
+}

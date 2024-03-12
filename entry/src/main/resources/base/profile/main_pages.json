@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Second"
+  ],
+  "window": {
+    "designWidth": 720,
+    "autoDesignWidth": false
+  }
+}

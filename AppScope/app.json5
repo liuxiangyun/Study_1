@@ -1,0 +1,30 @@
+{
+  "app": {
+    "bundleName": "com.example.study_1",
+    "bundleType": "app",
+    "debug": true,
+    "icon": "$media:app_icon",
+    "label": "$string:app_name",
+    "description": "example study_1",
+    "vendor": "example",
+    "versionCode": 1000000,
+    "versionName": "1.0.0",
+    "minCompatibleVersionCode": 1000000,
+    "minAPIVersion": 9,
+    "targetAPIVersion": 9,
+    "apiReleaseType": "Release9",
+    "multiProjects": false,
+    "tablet": {
+    },
+    "tv": {
+    },
+    "wearable": {
+    },
+    "car": {
+    },
+    "phone": {
+    }
+  }
+}
+
+

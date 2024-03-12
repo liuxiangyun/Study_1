@@ -1,0 +1,15 @@
+{
+  "license": "",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "author": "",
+  "name": "study_1",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    //引用HAR
+    "staticlibrary": "file:./staticlibrary"
+  }
+}

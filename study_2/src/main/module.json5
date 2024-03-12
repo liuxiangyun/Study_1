@@ -1,0 +1,37 @@
+{
+  "module": {
+    "name": "study_2",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "Study_2Ability",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "Study_2Ability",
+        "srcEntry": "./ets/study_2ability/Study_2Ability.ts",
+        "description": "$string:Study_2Ability_desc",
+        "icon": "$media:icon",
+        "label": "$string:Study_2Ability_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

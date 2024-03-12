@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Study1"
+    },
+    {
+      "name": "second_enter",
+      "value": "second page enter"
+    },
+    {
+      "name": "first_page",
+      "value": "first page"
+    },
+    {
+      "name": "second_page",
+      "value": "second page"
+    },
+    {
+      "name": "third_enter",
+      "value": "third page enter"
+    }
+  ]
+}
