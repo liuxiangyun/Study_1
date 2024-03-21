@@ -5,12 +5,21 @@ export struct MainPage {
   build() {
     Row() {
       Column() {
-        Text(this.message)
+        Text($r('app.string.staticTest'))
           .fontSize(50)
           .fontWeight(FontWeight.Bold)
       }
-      .width('100%')
     }
-    .height('100%')
   }
+}
+
+export function test1(){
+
+}
+
+
+import native from "libnative.so"
+export function nativeAdd(a: number, b: number) {
+  let result: number = native.add(a, b);
+  return result;
 }
