@@ -8,11 +8,11 @@
   "version": "1.0.0",
   "dependencies": {
 
-    //引用HAR文件夹
-//    "staticlib": "file:../staticlibrary",
+//    引用HAR文件夹
+    "staticlib": "file:../staticlibrary",
 
-    //引用HSP
-    "sharedlib": "file:../sharedlibrary",
+//    引用HSP
+//    "sharedlib": "file:../sharedlibrary",
 
 
   }
