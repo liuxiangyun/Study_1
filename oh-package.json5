@@ -9,9 +9,9 @@
   "main": "",
   "version": "1.0.0",
   "dependencies": {
-    //引用HAR文件夹
-    "staticlibrary": "file:./staticlibrary",
-    //
 
+    //
+    //引用HAR文件夹
+    "staticlib": "file:./staticlibrary"
   }
 }

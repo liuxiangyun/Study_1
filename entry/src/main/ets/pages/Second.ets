@@ -1,5 +1,5 @@
 import router from '@ohos.router'
-import { MainPage, test1, nativeAdd } from 'staticlibrary'
+import { MainPage, test1, nativeAdd } from 'staticlib'
 
 @Entry
 @Component

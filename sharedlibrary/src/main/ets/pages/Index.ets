@@ -15,3 +15,5 @@ export  struct Index {
     .height('100%')
   }
 }
+
+import { MainPage, test1, nativeAdd } from 'staticlib'
