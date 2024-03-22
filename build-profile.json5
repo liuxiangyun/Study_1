@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "/Users/liuxiangyun/.ohos/config/auto_debug_Study_1_com.example.study_1_2850086000372117205.cer",
-          "storePassword": "0000001B8161A3BCDD2871717E04AC225289093ABAE0D833328BE56D6B6C10E4B1A66A94046820D5BA988E",
+          "certpath": "C:\\Users\\13593\\.ohos\\config\\auto_debug_Study_1_com.example.study_1_2850086000372117205.cer",
+          "storePassword": "0000001B03875377E432AA8896F4301D8296E41F29C564ADB07AF937495707FED80929E20C2B337BD1EC7D",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001BC7D12B338115E305E706F4383C7A107763F7095770842D9A70F70B1AA7379C3F99998700FFC3C5",
-          "profile": "/Users/liuxiangyun/.ohos/config/auto_debug_Study_1_com.example.study_1_2850086000372117205.p7b",
+          "keyPassword": "0000001BBF3BF949FA999EC0B928323B4C17B3AD34767763F0E369ACE9AB1DC2C4743ACE0D2D2332FB3514",
+          "profile": "C:\\Users\\13593\\.ohos\\config\\auto_debug_Study_1_com.example.study_1_2850086000372117205.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/liuxiangyun/.ohos/config/auto_debug_Study_1_com.example.study_1_2850086000372117205.p12"
+          "storeFile": "C:\\Users\\13593\\.ohos\\config\\auto_debug_Study_1_com.example.study_1_2850086000372117205.p12"
         }
       }
     ],

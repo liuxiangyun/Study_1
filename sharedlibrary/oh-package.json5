@@ -1,15 +1,12 @@
 {
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "",
   "name": "sharedlibrary",
-  "version": "1.0.0",
   "description": "Please describe the basic information.",
   "main": "./src/main/ets/Index.ets",
-  "author": "",
-  "license": "Apache-2.0",
+  "version": "1.0.0",
   "dependencies": {
     "staticlib": "file:../staticlibrary"
-  },
-  "devDependencies": {
-
-
   }
 }
